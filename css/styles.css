@@ -1,0 +1,109 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Roboto", sans-serif;
+}
+
+h2 {
+    color: #9A1D3E;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+p {
+    font-size: 0.8em;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+li  {
+    font-size: 0.8em;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+header h1 {
+    color: #EDF6F9;
+    font-weight: 600;
+    font-size: 2em;
+    margin-top: 1.4em;
+    margin-bottom: 1em;
+}   
+
+header h2 {
+    color: #EDF6F9;
+    font-size: 1em;
+    margin-top: 0.8em;
+}
+
+header .btn {
+    margin-top:1em;
+    font-size: 0.8em;
+    font-family: "Roboto",Sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #000bac;
+    background-color: #FFAC28;
+    width: 200px;
+    border-radius: 90px 90px 90px 90px;
+    border: unset;
+}
+
+header .btn:hover {
+    color: #000bac;
+    background-color: white;
+    transition: 0.4s;
+}
+
+.col-8 .btn {
+    margin-top:1em;
+    font-size: 0.8em;
+    font-family: "Roboto",Sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color:  #000bac;
+    background-color: #FFAC28;
+    width: 140px;
+    border-radius: 90px 90px 90px 90px;
+    border: unset;
+}
+
+.col-8 .btn:hover {
+    color: white;
+    background-color: #000bac;
+    transition: 0.4s;
+}
+
+.jumbotron {
+    background: url("../img/HeroImageCaseStudy.png");
+    height: 460px;
+}
+
+.jumbotron .col-6 {
+    margin-left: 3em;
+}
+
+.dark {
+    background-color: #9A1D3E;
+    padding: 40px 0 40px 0;
+    margin: 120px 0 40px 0;
+}
+
+.dark h2 {
+    color: #EDF6F9;
+}
+
+.dark p {
+    color: #EDF6F9;
+}
+
+.flip{
+    transform: rotateY(180deg);
+    transition: transform 1.2s;
+  }
+
+  .return{
+    transition: transform 1.2s;
+  }

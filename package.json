@@ -1,0 +1,17 @@
+{
+  "name": "case-study",
+  "version": "1.0.0",
+  "description": "Jacada Case Study",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "author": "Christopher Roman <chrisjiroman@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "lite-server": "^2.6.1"
+  }
+}
